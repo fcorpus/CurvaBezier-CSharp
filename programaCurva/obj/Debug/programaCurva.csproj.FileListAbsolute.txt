@@ -1,0 +1,10 @@
+C:\Users\Francisco Castillo.000\Desktop\yo\7mo\Graficación\programaCurva\programaCurva\bin\Debug\programaCurva.exe.config
+C:\Users\Francisco Castillo.000\Desktop\yo\7mo\Graficación\programaCurva\programaCurva\bin\Debug\programaCurva.exe
+C:\Users\Francisco Castillo.000\Desktop\yo\7mo\Graficación\programaCurva\programaCurva\bin\Debug\programaCurva.pdb
+C:\Users\Francisco Castillo.000\Desktop\yo\7mo\Graficación\programaCurva\programaCurva\obj\Debug\programaCurva.csproj.AssemblyReference.cache
+C:\Users\Francisco Castillo.000\Desktop\yo\7mo\Graficación\programaCurva\programaCurva\obj\Debug\programaCurva.Form1.resources
+C:\Users\Francisco Castillo.000\Desktop\yo\7mo\Graficación\programaCurva\programaCurva\obj\Debug\programaCurva.Properties.Resources.resources
+C:\Users\Francisco Castillo.000\Desktop\yo\7mo\Graficación\programaCurva\programaCurva\obj\Debug\programaCurva.csproj.GenerateResource.cache
+C:\Users\Francisco Castillo.000\Desktop\yo\7mo\Graficación\programaCurva\programaCurva\obj\Debug\programaCurva.csproj.CoreCompileInputs.cache
+C:\Users\Francisco Castillo.000\Desktop\yo\7mo\Graficación\programaCurva\programaCurva\obj\Debug\programaCurva.exe
+C:\Users\Francisco Castillo.000\Desktop\yo\7mo\Graficación\programaCurva\programaCurva\obj\Debug\programaCurva.pdb
