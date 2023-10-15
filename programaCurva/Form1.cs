@@ -39,9 +39,10 @@ namespace programaCurva
 
             foreach (PointF punto in puntos)
             {
-                g.DrawRectangle(Pens.Red, punto.X, punto.Y, 1, 1);
+                g.DrawRectangle(Pens.Red, punto.X, punto.Y, 5, 5);
             }
 
+            //g.DrawLines(Pens.Black,puntos);
             //g.DrawBezier(Pens.Black, puntoInicio, puntoControl1, puntoControl2, puntoFinal);
             PointF[] puntosCurva = CalculaBezier(puntoInicio,puntoControl1,puntoControl2,puntoFinal);
 
@@ -56,12 +57,12 @@ namespace programaCurva
         }
         private PointF[] CalculaBezier(PointF puntoInicio, PointF puntoControl1, PointF puntoControl2, PointF puntoFinal) 
         {
-            int noPuntos = 1000;
+            int noPuntos = 1000000;
             PointF[] puntos = new PointF[noPuntos];
 
             for(int i = 0; i < noPuntos; i++)
             {
-                double t = 1 / (double)(noPuntos - 1);
+                double t = i / (double)(noPuntos - 1);
 
                 double x = Math.Pow(1 - t, 3) * puntoInicio.X + 3 * Math.Pow(1 - t, 2) * t * puntoControl1.X + 3 * (1 - t) *
                     Math.Pow(t, 2) * puntoControl2.X + Math.Pow(t, 3) * puntoFinal.X;
