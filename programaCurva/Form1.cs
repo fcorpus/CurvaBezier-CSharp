@@ -29,11 +29,6 @@ namespace programaCurva
                 puntoInicio, puntoControl1, puntoControl2, puntoFinal
             };
 
-            /*Point puntoInicio = new Point(int.Parse(p1X.Text), int.Parse(p1Y.Text));
-            Point puntoControl1 = new Point(int.Parse(p2X.Text), int.Parse(p2Y.Text));
-            Point puntoControl2 = new Point(int.Parse(p3X.Text), int.Parse(p3Y.Text));
-            Point puntoFinal = new Point(int.Parse(p4X.Text), int.Parse(p4Y.Text));*/
-
             Graphics g = zonaGraficar.CreateGraphics();
             g.Clear(Color.White);
 
@@ -43,18 +38,12 @@ namespace programaCurva
             }
 
             //g.DrawLines(Pens.Black,puntos);
-            //g.DrawBezier(Pens.Black, puntoInicio, puntoControl1, puntoControl2, puntoFinal);
             PointF[] puntosCurva = CalculaBezier(puntoInicio,puntoControl1,puntoControl2,puntoFinal);
 
             g.DrawLines(Pens.Black, puntosCurva);
 
         }
 
-        private void zonaGraficar_Paint(object sender, PaintEventArgs e)
-        {
-            /*Graphics g = e.Graphics;
-            Point[] puntos = CalculaBezier();*/
-        }
         private PointF[] CalculaBezier(PointF puntoInicio, PointF puntoControl1, PointF puntoControl2, PointF puntoFinal) 
         {
             int noPuntos = 1000000;

@@ -235,7 +235,6 @@
             this.zonaGraficar.Size = new System.Drawing.Size(568, 450);
             this.zonaGraficar.TabIndex = 21;
             this.zonaGraficar.TabStop = false;
-            this.zonaGraficar.Paint += new System.Windows.Forms.PaintEventHandler(this.zonaGraficar_Paint);
             // 
             // Form1
             // 
